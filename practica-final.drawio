@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
+  <diagram name="Page-1" id="JK9t0pMHn0lnWc2lxoqK">
+    <mxGraphModel dx="2026" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-1" target="9dBUqJMnR2jhjDawsmKG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-3" target="9dBUqJMnR2jhjDawsmKG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-3" value="Mostrar mensaje: Ingrese la moneda origen para la conversion (EUR/USD)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="275" y="230" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-4" target="9dBUqJMnR2jhjDawsmKG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-4" value="Mostrar mensaje: &quot;Ingrese el monto a convertir: &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="265" y="350" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-5" target="9dBUqJMnR2jhjDawsmKG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-5" value="tipo_conversion es EUR" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-6" target="9dBUqJMnR2jhjDawsmKG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-6" value="Calcular resultado = monto_a_convertir * tipo_cambio_eur_a_mxn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-7" value="Mostrar &quot;El resultado de la conversion de EUR a MXN es: &quot;, resultado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="810" y="482.5" width="360" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-13" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-15" target="9dBUqJMnR2jhjDawsmKG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-15" target="9dBUqJMnR2jhjDawsmKG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-23" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9dBUqJMnR2jhjDawsmKG-22">
+          <mxGeometry x="-0.2727" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-15" value="tipo_conversion es USD" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="630" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-17" target="9dBUqJMnR2jhjDawsmKG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-17" value="Calcular resultado = monto_a_convertir * tipo_cambio_usd_a_mxn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="660" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-18" target="9dBUqJMnR2jhjDawsmKG-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-18" value="Mostrar &quot;El resultado de la conversion de USD a MXN es: &quot;, resultado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="810" y="662.5" width="360" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-19" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9dBUqJMnR2jhjDawsmKG-20" target="9dBUqJMnR2jhjDawsmKG-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-20" value="Mostrar: &quot;No esta disponible este tipo de conversion actualmente&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="288" y="840" width="275" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-24" value="Final" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9dBUqJMnR2jhjDawsmKG-27" value="&lt;div&gt;&amp;nbsp; &amp;nbsp;Definir tipo_cambio_eur_a_mxn = 23.70&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Definir tipo_cambio_usd_a_mxn = 20.75&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="298" y="130" width="255" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
